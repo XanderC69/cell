@@ -1,0 +1,75 @@
+
+<!-- This is a form used to edit student information. The form action is set to "/student/editStudent" and uses the POST method. -->
+<div class="form">
+  <form action="/student/editStudent" method="POST">
+    <!-- Display the student's name as a heading -->
+    <div class="form-input">
+      <h2><%= student.name %></h2>
+      <!-- Display the student's email as a span -->
+      <span>Student's email Id to be entered in first input field : <%= student.email %></span>
+    </div>
+
+    <!-- Input field for entering the student's email, with a placeholder showing the current email. It is a required field. -->
+    <div class="form-input">
+      <input
+        type="text"
+        name="email"
+        placeholder="email: <%= student.email %>"
+        required
+      />
+    </div>
+
+    <!-- Heading for adding an interview -->
+    <h2>Add Interview</h2>
+
+    <!-- Three input fields for adding interview details: company name, interview date, and interview result. -->
+    <div class="threeInput threeSubInput">
+      <!-- Input field for entering the company name. It is a required field. -->
+      <div class="form-input threeSubInput">
+        <input
+          class="subInput"
+          type="text"
+          name="company"
+          placeholder="Company Name"
+          required
+        />
+      </div>
+      <!-- Input field for selecting the interview date. It is a required field. -->
+      <div class="form-input threeSubInput">
+        <input
+          class="subInput"
+          type="date"
+          name="date"
+          placeholder="Interview Date"
+          required
+        />
+      </div>
+      <!-- Dropdown select field for choosing the interview result. It is a required field. -->
+      <div class="form-input threeSubInput">
+        <select class="subInput" class="form-input" name="result">
+          <!-- Option group for "Result" -->
+          <optgroup label="Result">
+            <!-- Options for different interview results: "Selected", "Not Selected", "On Hold", "Didn't Attend", and "Interview Pending" -->
+            <option name="selected" value="Selected">Selected</option>
+            <option name="not_selected" value="Not Selected">Not Selected</option>
+            <option name="on_hold" value="On Hold">On Hold</option>
+            <option name="on_hold" value="On Hold">Didn't Attend</option>
+            <option name="on_hold" value="Interview Pending">Interview Pending</option>
+          </optgroup>
+        </select>
+      </div>
+    </div>
+
+    <!-- Submit button to edit the student information -->
+    <div class="form-input">
+      <input type="Submit" value="Edit Student" />
+    </div>
+
+    <!-- Links to navigate back to the user's profile -->
+    <div class="studentCardActions">
+      <div class="cardLinks">
+        <a href="/users/profile">Back</a>
+      </div>
+    </div>
+  </form>
+</div>

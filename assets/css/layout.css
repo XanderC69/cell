@@ -1,0 +1,174 @@
+/* Global styles for the entire page */
+body {
+  margin-left: 0%;
+  margin-top: 0px;
+  margin-right: 0px;
+  background-color: #3a2d39;
+  color: #a9a9a9;
+}
+
+/* Styles for the header section */
+.head {
+  margin-left: 20%;
+  color: #a9a9a9;
+  margin-top: 120px;
+}
+
+/* Styles for actions or buttons */
+.actions {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Styles for links in the actions section */
+.links {
+  margin-left: 20px;
+  width: 10%;
+  height: 40px;
+  margin-right: 20px;
+  padding-left: 32px;
+  padding-top: 20px;
+}
+
+/* Styles for links (anchors) */
+.links a {
+  color: #a9a9a9;
+  font-size: 20px;
+}
+
+/* Styles for the form section */
+.form {
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styles for input fields in the form */
+.form-input input {
+  height: 40px;
+  width: 60%;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border-width: 0;
+  padding: 10px;
+}
+
+/* Additional styles for specific input fields in the form */
+.form-input2 input {
+  height: 40px;
+  width: 60%;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border-width: 0;
+}
+
+/* Styles for headings */
+.headings {
+  margin-left: 40%;
+  color: aliceblue;
+  margin-top: 10px;
+}
+
+/* Styles for links within elements with class 'headingsG' */
+.headingsG a {
+  margin-left: 30%;
+  color: #a9a9a9;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+/* Styles for elements with class 'threeInput' (flex container for three input elements) */
+.threeInput {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+/* Styles for elements with class 'threeSubInput' (flex container for each sub-input element in 'threeInput') */
+.threeSubInput {
+  width: 58.5%;
+  padding-right: 20px;
+  align-content: stretch;
+}
+
+/* Styles for input fields within elements with class 'subInput' */
+.subInput {
+  width: 100%;
+}
+
+/* Styles for elements with class 'studentCard' (a card-like container for student information) */
+.studentCard {
+  padding: 10px;
+  width: 20%;
+  background-color: #191b1d;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+/* Styles for the score section */
+.score {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Styles for elements with class 'studentCardActions' (flex container for actions related to student cards) */
+.studentCardActions {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+}
+
+/* Styles for disabled input fields */
+input:disabled {
+  background: #dddddd;
+  cursor: pointer;
+}
+
+/* Styles for elements with class 'student_list_container' (flex container for student list items) */
+.student_list_container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Styles for elements with class 'links-footer' (footer links) */
+.links-footer {
+  margin-left: 20px;
+  height: 40px;
+  margin-right: 20px;
+  padding-top: 20px;
+}
+
+/* Styles for elements with class 'name' */
+.name {
+  margin-top: 6px;
+}
+
+/* Styles for elements with class 'cardLinks' */
+.cardLinks {
+  width: 50%;
+}
+
+/* Styles for links within elements with class 'cardLinks' */
+.cardLinks a {
+  color: #a9a9a9;
+}
+
+/* Styles for elements with class 'scoreSub' */
+.scoreSub {
+  width: 33%;
+  margin-top: 10px;
+}
+
+/* Styles for elements with class 'cardHead' */
+.cardHead {
+  font-size: 20px;
+}
+
+/* Styles for elements with class 'scoreHead' */
+.scoreHead {
+  margin-top: 10px;
+}
+

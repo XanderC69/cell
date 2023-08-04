@@ -1,0 +1,69 @@
+/* Styles for the header element */
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #191b1d;
+  margin: 0px 0px;
+}
+
+/* Styles for images with class 'image' */
+.image {
+  width: 60px;
+  height: 60px;
+}
+
+/* Styles for links within elements with class 'links-name1' */
+.links-name1 a {
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 150px;
+  color: #a9a9a9;
+  text-decoration: none;
+  font-size: large;
+}
+
+/* Styles for links within elements with class 'links-name2' */
+.links-name2 a {
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 350px;
+  color: #a9a9a9;
+  text-decoration: none;
+  font-size: large;
+}
+
+/* Styles for links within elements with class 'links-name3' */
+.links-name3 a {
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 550px;
+  color: #a9a9a9;
+  text-decoration: none;
+  font-size: large;
+}
+
+/* Styles for links within elements with class 'links-name4' */
+.links-name4 a {
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 750px;
+  color: #a9a9a9;
+  text-decoration: none;
+  font-size: large;
+}
+
+/* Styles for links within elements with class 'links-name5' */
+.links-name5 a {
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 950px;
+  color: #a9a9a9;
+  text-decoration: none;
+  font-size: large;
+}
+
+/* Styles for links within elements with class 'main' */
+.main a {
+  text-align: center;
+  justify-items: center;
+}
